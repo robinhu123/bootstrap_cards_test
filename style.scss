@@ -1,0 +1,68 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$main-bg-color: #EEEEEE;
+$main-bg-color_1: #FFD000;
+$main-bg-color_2: rgb(218, 218, 218);
+$base: 16px;
+$break-small_1:400px;
+$break-large_2:720px;
+$break-small:400px;
+$break-large:768px;
+$break-small:400px;
+$break-large:768px;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $main-bg-color;
+  font-size:$base;
+    @media screen and (max-width: $break-small_1) {
+        background-color: $main-bg-color_1;
+    }
+
+    @media screen and (min-width: $break-small_1) and (max-width: $break-large_2) {
+        background-color: $main-bg-color_2;
+    }
+
+}
+
+.card_spec {
+    width:300px; text-align: center; margin:20px 0 0 0;
+    @media screen and (max-width: $break-small_1) {
+        width:150px;
+    }
+
+    @media screen and (min-width: $break-small_1) and (max-width: $break-large_2) {
+        width:200px;
+    }
+}
+.card {
+    @media screen and (max-width: $break-small_1) {
+        background:none;
+        border:none;
+    }
+
+    @media screen and (min-width: $break-small_1) and (max-width: $break-large_2) {
+        background:none;
+        border:none;
+    }
+}
+
+.btn {
+    @media screen and (max-width: $break-small_1) {
+        visibility: hidden;
+    }
+
+    @media screen and (min-width: $break-small_1) and (max-width: $break-large_2) {
+        visibility: hidden;
+    } 
+}
+
+.col-sm {
+    @media screen and (max-width: $break-small_1) {
+        width:140px !important;
+    }
+
+    @media screen and (min-width: $break-small_1) and (max-width: $break-large_2) {
+        width:200px !important;
+    } 
+}

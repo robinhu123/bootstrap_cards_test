@@ -1,0 +1,75 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: #EEEEEE;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: #FFD000;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px) {
+  body {
+    background-color: #dadada;
+  }
+}
+
+.card_spec {
+  width: 300px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 400px) {
+  .card_spec {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px) {
+  .card_spec {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    background: none;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px) {
+  .card {
+    background: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px) {
+  .btn {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .col-sm {
+    width: 140px !important;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px) {
+  .col-sm {
+    width: 200px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
